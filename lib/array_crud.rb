@@ -1,35 +1,49 @@
 def create_an_empty_array
+  []
   
 end
 
-def create_an_array
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
   
 end
 
-def add_element_to_end_of_array(array, element)
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+  
+     soft_drinks << "Powerade"
+end
+
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+  
+    soft_drinks.unshift("Coke Zero")
   
 end
 
-def add_element_to_start_of_array(array, element)
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+  
+    fanta = soft_drinks.pop
   
 end
 
-def remove_element_from_end_of_array(array)
+def  soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+    
+    coke = soft_drinks.shift
   
 end
 
-def remove_element_from_start_of_array(array)
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+  
+    soft_drinks[3]
   
 end
 
-def retrieve_element_from_index(array, index_number)
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+    
+    soft_drinks.first
   
 end
 
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
+def soft_drinks = ["Coke", "Sprite", "Dr.Pepper", "Fanta"]
+    
+    soft_drinks.last
   
 end
